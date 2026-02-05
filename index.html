@@ -1065,7 +1065,7 @@ body::before{
     </div>
     <div class="geo-card reveal reveal-delay-3">
       <div class="geo-region">СНГ</div>
-      <div class="geo-city">Астана & Алматы</div>
+      <div class="geo-city">Алматы</div>
       <div class="geo-desc">Цифровизация инженерных и инфраструктурных объектов Казахстана</div>
     </div>
   </div>
@@ -1163,14 +1163,14 @@ body::before{
   <h2 class="cta-title reveal reveal-delay-1">Готовы к цифровой<br><span style="background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent">трансформации?</span></h2>
   <p class="cta-desc reveal reveal-delay-2">Обсудим, как цифровые двойники и цифровизация помогут вашему бизнесу стать эффективнее, прозрачнее и устойчивее</p>
   <div class="reveal reveal-delay-3" style="display:flex;flex-direction:column;align-items:center;gap:24px">
-    <a href="mailto:digital_twin_com@mail.ru" class="btn btn-primary" style="font-size:16px;padding:18px 48px;">Обсудить проект</a>
+    <a href="https://wa.me/77027300054" target="_blank" class="btn btn-primary" style="font-size:16px;padding:18px 48px;">Обсудить проект</a>
     <div style="display:flex;gap:24px;flex-wrap:wrap;justify-content:center;margin-top:8px">
       <a href="https://www.instagram.com/digital_twin_tech?igsh=MWpuaDV2aDUzcnQ3Mw%3D%3D&utm_source=qr" target="_blank" class="btn btn-outline" style="padding:12px 24px;font-size:12px">Instagram</a>
       <a href="https://www.tiktok.com/@erbolan.karsybai?_r=1&_t=ZS-93f8KjCsTLR" target="_blank" class="btn btn-outline" style="padding:12px 24px;font-size:12px">TikTok</a>
     </div>
     <div style="margin-top:24px;text-align:center">
-      <p style="font-family:var(--font-mono);font-size:13px;color:var(--text-dim);letter-spacing:1px;margin-bottom:8px">+7 702 730 00 54</p>
-      <p style="font-size:13px;color:var(--text-dim);margin-bottom:4px">digital_twin_com@mail.ru</p>
+      <p style="font-family:var(--font-mono);font-size:13px;letter-spacing:1px;margin-bottom:8px"><a href="tel:+77027300054" style="color:var(--cyan);text-decoration:none">+7 702 730 00 54</a></p>
+      <p style="font-size:13px;margin-bottom:4px"><a href="mailto:digital_twin_com@mail.ru" style="color:var(--cyan);text-decoration:none;font-family:var(--font-mono);letter-spacing:1px">digital_twin_com@mail.ru</a></p>
       <p style="font-size:12px;color:var(--text-dim2)">г. Шымкент, Туранский район, ул. С. Жандосова 6а/2</p>
     </div>
   </div>
@@ -1183,7 +1183,7 @@ body::before{
     <div style="font-size:11px;color:var(--text-dim2)">г. Шымкент, Туранский район, ул. С. Жандосова 6а/2</div>
   </div>
   <div style="display:flex;flex-direction:column;align-items:center;gap:4px">
-    <div style="font-size:12px;color:var(--text-dim)">+7 702 730 00 54 &nbsp;|&nbsp; digital_twin_com@mail.ru</div>
+    <div style="font-size:12px;color:var(--text-dim)">+7 702 730 00 54 &nbsp;|&nbsp; <a href="mailto:digital_twin_com@mail.ru" style="color:var(--cyan);text-decoration:none">digital_twin_com@mail.ru</a></div>
     <div class="footer-copy">© 2025 South Invest Group. Все права защищены.</div>
   </div>
   <ul class="footer-links">
@@ -1409,8 +1409,7 @@ window.addEventListener('scroll',()=>{
 window.addEventListener('scroll',()=>{
   const scrollY=window.scrollY;
   document.querySelectorAll('.parallax-break img').forEach(img=>{
-    const rect=img.parentElement.getBoundingClientRect();
-    const speed=.3;
+    const rect=img.parentElement.getBoundingClientRect();    const speed=.3;
     img.style.transform=`translateY(${rect.top*speed}px)`;
   });
 });
